@@ -9,6 +9,7 @@ Now heres the stitch on how to set up your misp file
 - Afterwards you will run the following commands in order to get your misp site up and running
 
 ./setup_misp.sh
+
 ./run_misp.sh
 
 - You will need sudo privileges in order to run these commands
