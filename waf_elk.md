@@ -15,6 +15,15 @@ sudo apt-get install docker-compose
   ifconfig eth0
 
 - Since we are using a Virtual Machine the IP address will look similiar to 10.... of that variety.
+- Afterwards you'll change the MISP_KEY found on the site your created from the misp site
 - Once that is setup go head and build the docker with the specifications from the README.md
   - This is the part that will use a lot of memory almost 20MB hence why we needed to create a larger space on our Virtual Machines in order to make room for this docker build
-  
+- The you'll start the build for docker and start the containers with these commands
+
+sudo docker-compose build
+./start_docker.sh
+
+- It might take a a minute in order to build the docker container and start it. Once it done, it will continue running as the site is open for you r ip address
+- You'll want to open the kibana site as specified in the waf_elk README.md site
+- Afterwards you'll import the specific settings as by the instrucitons on the README.md file
+Now you're all set! Afterwards when you open the Virtual Machine next time you'll only need to run start_docker.sh in order to ge the site up and running
