@@ -5,4 +5,4 @@ Now heres the stitch on how to set up your misp file
 
     cd ~/Honeypot-Project/honeytraps/misp
 - There you will read the README.md file and follow the instructions exactly as told
-- It should involve creating a env file and having the specifications DOCKER_ROOT=root. 
+  
