@@ -12,6 +12,9 @@ Now heres the stitch on how to set up your misp file
 
 ./run_misp.sh
 
+![image](https://github.com/rainyjluke/HoneyHomeLab/assets/119358099/f0c8f35e-e9ae-41ae-8499-7bd4c71fe340)
+
+
 - You will need sudo privileges in order to run these commands
 - After these have been set up follow the README.md instructions and open a http://localhost and enter the credentials given in the README.md
 - It should look like this after it has been setup
