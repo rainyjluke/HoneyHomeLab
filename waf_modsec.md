@@ -9,6 +9,8 @@ cd ~/Honeypot-Project/honeytraps/waf_modsec
     - You can check to see what your IP address with this command
 
   ifconfig eth0
+  
+![image](https://github.com/rainyjluke/HoneyHomeLab/assets/119358099/f5c870bd-694a-42e6-b4f9-58ce9b3b2286)
 
 - To copy the env file you want to do this command
 
