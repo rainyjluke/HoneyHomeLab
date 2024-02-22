@@ -21,4 +21,5 @@ For this honeypot we will be using the OWASP Honeypot found at https://github.co
     cd Honeypot-Projects/honeytrap
   
   - From there you will go ahead and read the README.md of each directory. They will have more information and specifications on how to set each directory up.
-    We will go over each one of these directories and what you need to do for each in the reps above. 
+    We will go over each one of these directories and what you need to do for each in the reps above.
+  - I started with misp, then waf_elk, and then waf_modsec. It is the most straightforward sequence that will acheive the desired results
