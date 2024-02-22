@@ -23,7 +23,9 @@ sudo apt-get install docker-compose
 sudo docker-compose build
 ./start_docker.sh
 
-- It might take a a minute in order to build the docker container and start it. Once it done, it will continue running as the site is open for you r ip address
+- It might take a a minute in order to build the docker container and start it. Once it done, it will continue running as the site is open for your ip address
 - You'll want to open the kibana site as specified in the waf_elk README.md site
 - Afterwards you'll import the specific settings as by the instrucitons on the README.md file
-Now you're all set! Afterwards when you open the Virtual Machine next time you'll only need to run start_docker.sh in order to ge the site up and running
+Now you're all set! Afterwards when you open the Virtual Machine next time you'll only need to run start_docker.sh in order to ge the site up and running. And look a little something like this
+
+![image](https://github.com/rainyjluke/HoneyHomeLab/assets/119358099/f4dbb793-3c43-44fa-95bb-b79933ca6cfd)
