@@ -14,8 +14,7 @@ sudo apt-get install docker-compose
 
   ifconfig eth0
 
-  ![image](https://github.com/rainyjluke/HoneyHomeLab/assets/119358099/655e7125-0f31-4b2c-b0d1-2be76073a822)
-
+![image](https://github.com/rainyjluke/HoneyHomeLab/assets/119358099/faa1bb41-a423-4562-b3eb-a4223c52b140)
 
 - Since we are using a Virtual Machine the IP address will look similiar to 10.... of that variety.
 - Afterwards you'll change the MISP_KEY found on the site your created from the misp site
