@@ -1,6 +1,6 @@
 # HoneyHomeLab
 A Kali Linux customized WAF using template from ModSecurity, with modifications for own specific needs. Purpose of this homelab is to create a offensive penetration testing lab
-that has some defensive capabilities that can be modified for your own person needs. For the version listed below, I will be using Oracle VirtualBox with a KaliLinux OS
+that has some defensive capabilities that can be modified for your own person needs. For the version listed below, I will be using Oracle VirtualBox with a KaliLinux OS.
 
 # Homelab Specifications:
 Use the latest Kali Linux installer for your VirtualBox or Virtual Machine
@@ -21,4 +21,4 @@ For this honeypot we will be using the OWASP Honeypot found at https://github.co
     cd Honeypot-Projects/honeytrap
   
   - From there you will go ahead and read the README.md of each directory. They will have more information and specifications on how to set each directory up.
-  - I started with misp, then waf_elk, and then waf_modsec. It is the most straightforward sequence that will acheive the desired results
+  - I started with misp, then waf_elk, and then waf_modsec. It is the most straightforward sequence that will acheive the desired results.
