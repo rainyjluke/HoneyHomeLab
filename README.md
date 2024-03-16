@@ -6,8 +6,7 @@ that has some defensive capabilities that can be modified for your own person ne
 Use the latest Kali Linux installer for your VirtualBox or Virtual Machine:
   - Base Memory 4080 MB
   - Processor: 5 CPU (you'll need that extra power for the Honeypot that will be installed later)
-  - Disk Size: 50 MB (I have done this with the defualt 25MB, but the specific honeypot will use too much disk space. Doubling is more than enough for when in use)
-
+  - Disk Size: 50 MB (I have done this with the defualt 25MB, but the specific honeypot will use too much disk space. Doubling is more than enough for when in use.)
 Follow the prompts that it will ask you: country, lanugage, GUI interface, timezone all that good stuff. After answering the preliminary questions, it will start to install and set up. The installation will take some time, so keep your computer on as the VirtualBox installs.
 
 # Honeypot Installation:
