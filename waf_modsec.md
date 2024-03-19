@@ -22,5 +22,5 @@ docker-compose build
 
 docker-compose up
 
-- You might need sudo privileges in order to run it, but once its up you'll be set for your honeypot!
-- By design the ports open will be 9091, 8080, 8000, 8888. 
+- You might need sudo privileges in order to run it. After it starts running the honeypot will be set. 
+  - By design the ports open will be 9091, 8080, 8000, 8888. 
