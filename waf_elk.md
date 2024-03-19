@@ -1,5 +1,6 @@
 # Setup Kibana site
-- Here is the stitch on getting your Kibana site setup.
+- Listed below is how you will set up waf_elk.md. It is preferrable that you set up misp before waf_elk.
+
 - First you will need to install docker-compose if you haven't already have it setup on your homelab
 
 sudo apt-get install docker-compose
@@ -16,18 +17,18 @@ sudo apt-get install docker-compose
 
 ![image](https://github.com/rainyjluke/HoneyHomeLab/assets/119358099/e5ba936a-809b-4022-bd6a-afa1a6b5f1f6)
 
-- Since we are using a Virtual Machine the IP address will look similiar to 10.... of that variety.
+- Most virtual machines will show the IP address of a variety of 10.....
 - Afterwards you'll change the MISP_KEY found on the site your created from the misp site
 - Once that is setup go head and build the docker with the specifications from the README.md
-  - This is the part that will use a lot of memory almost 20MB hence why we needed to create a larger space on our Virtual Machines in order to make room for this docker build
+  - It is this part that it will consue 20 MB hence the need for at least 50 MB for the VM
 - The you'll start the build for docker and start the containers with these commands
 
 sudo docker-compose build
 ./start_docker.sh
 
-- It might take a a minute in order to build the docker container and start it. Once it done, it will continue running as the site is open for your ip address
+- It might take a a minute in order to build the docker container and start it. When finished, it will continue running as the site is open for your ip address
 - You'll want to open the kibana site as specified in the waf_elk README.md site
 - Afterwards you'll import the specific settings as by the instrucitons on the README.md file
-Now you're all set! Afterwards when you open the Virtual Machine next time you'll only need to run start_docker.sh in order to ge the site up and running. And look a little something like this
+That will complete waf_elk.  Next time you open your Virtula Machine. You will need to run start_docker.sh in order to ge the site up and running again. It should look like a variation of this : 
 
 ![image](https://github.com/rainyjluke/HoneyHomeLab/assets/119358099/f4dbb793-3c43-44fa-95bb-b79933ca6cfd)
