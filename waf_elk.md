@@ -28,7 +28,8 @@ sudo docker-compose build
 
 - It might take a a minute in order to build the docker container and start it. When finished, it will continue running as the site is open for your ip address
 - You'll want to open the kibana site as specified in the waf_elk README.md site
-- Afterwards you'll import the specific settings as by the instrucitons on the README.md file
-That will complete waf_elk.  Next time you open your Virtula Machine. You will need to run start_docker.sh in order to ge the site up and running again. It should look like a variation of this : 
+- Afterwards you'll import the specific settings as by the instrucitons on the README.md file.
+
+That will complete waf_elk.  Next time you open your Virtula Machine. You will need to run start_docker.sh in order to ge the site up and running again. It should look like a variation of this: 
 
 ![image](https://github.com/rainyjluke/HoneyHomeLab/assets/119358099/f4dbb793-3c43-44fa-95bb-b79933ca6cfd)
